@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 w = raw_input( 'enter weight in lbs: ' )
-h = raw_input( 'enter height in inches: biggest ' )
+h = raw_input( 'enter height in inches: ' )
 
 bmi = ( float(w) / float(h)**2 ) * 703
-print bmi
+print round(bmi,1)
